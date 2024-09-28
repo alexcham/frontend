@@ -8188,7 +8188,7 @@ init();
 animate();
 function init() {
   camera = new PerspectiveCamera(40, window.innerWidth / window.innerHeight, 1, 1e4);
-  camera.position.z = 3e3;
+  camera.position.z = 2000//3e3;
   scene = new Scene();
   for (let i = 0; i < table.length; i += 5) {
     const element = document.createElement("div");

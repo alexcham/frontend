@@ -26256,7 +26256,7 @@ scene.add(landscape);
 var gridColor = new Color(65535);
 scene.add(new GridHelper(GRID_SIZE, GRID_SIZE / 2, gridColor, gridColor));
 var camera = new PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1e3);
-camera.position.set(0, 1, 3);
+camera.position.set(0, 1, 2);
 camera.lookAt(0, 0, 0);
 var renderer = new WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);
@@ -26324,7 +26324,7 @@ sceneObjectsManager.addEventListener("sceneObjectsManager.gltfModel.initialized"
   player.action = this.mixer.clipAction(this.walkcycle, player.children[0].skeleton.bones[0]);
   player.action.setDuration(1);
   player.action.play();
-  player.position.set(-1, 0, 0);
+  player.position.set(0, 0, 0);
   const light2 = new PointLight(65535, 10, 5);
   light2.position.set(0, 0, 1);
   player.add(light2);
