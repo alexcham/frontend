@@ -15,13 +15,3 @@ function initCarousel() {
 
 }
 
-
-window.onload = function(){
-    document.getElementById("buttonPortfolio").addEventListener("click", function () {
-
-        fetchInsert("portfolio.html", "portfolio")
-        initCarousel()
-    
-    });
-}
-

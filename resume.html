@@ -1,46 +1,5 @@
 <div class="accordion" id="accordionExample">
 
-    <!--     <div class="accordion-item">
-        <h2 class="accordion-header" id="headingZero">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseZero"
-                aria-expanded="true" aria-controls="collapseZero">
-                <h2>About</h2>
-
-                 
-            </button>
-        </h2>
-        <div id="collapseZero" class="accordion-collapse collapse" aria-labelledby="headingZero"
-            data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-
-                <p> @TODO highlight background</p>
-
-            </div>
-        </div>
-    </div> -->
-
-    <!-- 
-    <div class="accordion-item">
-        <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                aria-expanded="true" aria-controls="collapseOne">
-                <h2>Contacts</h2>
-            </button>
-        </h2>
-        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-            data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-
-                <p>Email: alex.cham.tech@gmail.com</p>
-                <p>LinkedIn: <a href="https://linkedin.com/in/johndoe">linkedin.com/in/johndoe</a></p>
-                <p>GitHub: <a href="https://github.com/johndoe">github.com/johndoe</a></p>
-
-                <img src="images/qrcode-url.png" style="width:25%; height: 25%;"></img>
-
-            </div>
-        </div>
-    </div> -->
-
     <div class="accordion-item">
         <h2 class="accordion-header" id="headingTwo">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -56,27 +15,28 @@
 
                 <h5>Analysis</h5>
                 Syntax, Semantics, Formal Logic, Boolean Algebra
-                
+
                 <h5>Design</h5>
                 Class Diagrams, Sequence Diagrams, Design Patterns, UI/UX Design, Figma, Bootstrap, Flexbox, CSS Grid
 
                 <h5>Development</h5>
-                Algorithms, Data Structures, JavaScript, TypeScript, Node.js, npm/pnpm, ESBuild, Webpack, Babel, Git, GitHub, DOM, HTML5, CSS3, React.js, Vue.js, Cordova
+                Algorithms, Data Structures, JavaScript, TypeScript, Node.js, npm/pnpm, ESBuild, Webpack, Babel, Git,
+                GitHub, DOM, HTML5, CSS3, React.js, Vue.js, Cordova
 
-                <h5>Testing & Debugging</h5>
+                <h5>Debugging</h5>
                 Chrome Dev Tools, JUnit, Mocha, Curl, Puppeteer
 
                 <h5>Integration</h5>
                 Serialization/Deserialization, JSON, RPC API's, RESTful APIs, AJAX, Web3.js, Solana-web3.js
 
                 <h5>Deployment</h5>
-                Unix/Linux, Docker, Qemu, AVD, IPFS, CDN, GitHub Actions, Nginx
+                Unix/Linux, Docker, Qemu, AVD, IPFS, CDN, GitHub Actions, Nginx, Ngrok
 
                 <h5>Maintanance</h5>
                 Grafana, Prometheus
 
                 <h5>Networking</h5>
-                LAN, WAN, NAT, Routing, Forwarding, Netfilter, Nftables/Iptables, TCP/IP, SSH, HTTP/HTTPS, STUN, TURN, WebRTC, Web Sockets, Ngrok
+                LAN, WAN, NAT, Routing, Forwarding, TCP/IP, UDP, SSH, HTTP/HTTPS, STUN, TURN, WebRTC, Web Sockets
 
                 <h5>Other</h5>
                 Time Management, Problem Solving, Colaboration, Slack, Jira, PlantUML
@@ -139,5 +99,37 @@
     </div>
 
 
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                <h2>Portfolio</h2>
+            </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
 
+                <!--iframes with .glb models visible only without bootstrap accordion-->
+
+                <a href="./portfolio/index.html" type="button" class="btn btn-success">show portfolio</a>
+
+                <!--
+                    https://mdbootstrap.com/how-to/bootstrap/put-text-over-an-image/
+                    -->
+                <!--                 <div style="position: relative;">
+                    <img src="images/qrcode-contacts.png " style="width:100%; height: 100%;">
+                    <a href="./portfolio/project1.html" class="text-overlay">Click Here!</a>
+                </div>
+                </br>
+-->
+
+
+            </div>
+        </div>
+    </div>
 </div>
+
+<!-- <iframe src="./project2.html" style="width: 800px; height: 600px" scrolling="no" sandbox="allow-same-origin allow-scripts"></iframe>
+<a href="./project2.html" type="button" class="btn btn-success">fullscreen</a>
+OK -->
