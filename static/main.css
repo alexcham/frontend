@@ -3,6 +3,7 @@
 body {
 
     font-family: 'Roboto', sans-serif;
+    font-size: 14px;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -30,7 +31,7 @@ footer {
     margin-top: 2em;
 }
 
-.text-overlay{
+/* .text-overlay{
     position: absolute; 
     top: 50%; left: 50%; 
     transform: translate(-50%, -50%); 
@@ -38,4 +39,4 @@ footer {
     font-size: 24px; 
     font-weight: bold; 
     text-align: center;
-}
+} */

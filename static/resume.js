@@ -38,7 +38,9 @@ function onClickPrint() {
             });
         });
 
-        window.print()
+        setTimeout(()=>{
+            window.print()
+        }, 500)
     });
     
 }
